@@ -1,15 +1,25 @@
-.App {
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./assets/Particle\ 1\ -\ Compress\ 1.png'); /* Replace with your image */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.centered-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
+
 .centered-box {
   text-align: center;
   border: 1px solid #ddd;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color:  #060240;
+  color: white;
 }
 
 /* .text-above {
